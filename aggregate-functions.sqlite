@@ -1,1 +1,2 @@
 SELECT * FROM fake_apps;
+SELECT COUNT(*) FROM fake_apps;
