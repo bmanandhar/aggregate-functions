@@ -26,3 +26,6 @@ SELECT AVG(downloads) FROM fake_apps;
 
 SELECT price, AVG(downloads) FROM fake_apps
 GROUP BY price;
+
+SELECT price, ROUND(AVG(downloads), 2) FROM fake_apps
+GROUP BY price;
